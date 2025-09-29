@@ -9,12 +9,11 @@ It allows you to **create, read, update, and delete (CRUD)** players in a sports
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1. Clone the repo
+### 1. Open Terminal
 ```bash
-git clone https://github.com/your-username/node-api.git
-cd node-api
+cd Node-API
 ```
 
 ### 2. Install dependencies
@@ -38,11 +37,11 @@ node server.js
 ```
 
 Server will run at:  
-👉 `http://localhost:3000`
+ `http://localhost:3000`
 
 ---
 
-## 🛠 API Endpoints
+##  API Endpoints
 
 ### Players
 - **POST** `/api/players` → Create a new player  
@@ -50,25 +49,3 @@ Server will run at:
 - **GET** `/api/players/:id` → Get a single player  
 - **PATCH** `/api/players/:id` → Update a player  
 - **DELETE** `/api/players/:id` → Delete a player  
-
----
-
-## 📸 Screenshots (to include)
-Take Postman screenshots of:
-- One `GET` request  
-- One `POST` request  
-- One `PATCH` request  
-- One `DELETE` request  
-
-And add them here or submit separately.
-
----
-
-## 📦 Example POST Body
-```json
-{
-  "name": "Jordan Love",
-  "number": 10,
-  "position": "Quarterback"
-}
-```
